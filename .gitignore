@@ -1,0 +1,15 @@
+#patterns to be ignored:
+
+#files with '.que' extension
+*.que
+
+#still, track 'parce.que' file
+!parce.que
+
+#ignore TOTO (in the root cat)
+/TOTO
+
+#ignore `/**/stuff'
+stuff/
+
+doc/**/*.txt
